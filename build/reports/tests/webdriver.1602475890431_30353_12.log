@@ -1,0 +1,178 @@
+[1602475890,615][INFO]: Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 32092
+[1602475890,615][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1602475891,029][INFO]: [d054287a0d682f9216b604a771ad2dc5] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/home/dark-qa/java_stady/build/downloads/1602475886633_30353_12",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/home/dark-qa/java_stady/build/downloads/1602475886633_30353_12",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1602475891,029][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/home/dark-qa/java_stady/build/downloads/1602475886633_30353_12"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1602475891,029][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1602475891,029][INFO]: Launching chrome: /usr/bin/google-chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.com.google.Chrome.ev2fkK data:,
+[1602475894,136][INFO]: resolved localhost to ["127.0.0.1"]
+[1602475894,303][INFO]: resolved localhost to ["127.0.0.1"]
+[1602475894,962][INFO]: [d054287a0d682f9216b604a771ad2dc5] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "86.0.4240.75",
+      "chrome": {
+         "chromedriverVersion": "86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})",
+         "userDataDir": "/tmp/.com.google.Chrome.ev2fkK"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:42963"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "linux",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "d054287a0d682f9216b604a771ad2dc5"
+}
+[1602475895,310][INFO]: [d054287a0d682f9216b604a771ad2dc5] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1602475895,310][INFO]: Waiting for pending navigations...
+[1602475895,311][INFO]: Done waiting for pending navigations. Status: ok
+[1602475895,423][INFO]: Waiting for pending navigations...
+[1602475895,427][INFO]: Done waiting for pending navigations. Status: ok
+[1602475895,427][INFO]: [d054287a0d682f9216b604a771ad2dc5] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 34
+}
+[1602475895,443][INFO]: [d054287a0d682f9216b604a771ad2dc5] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1602475895,443][INFO]: [d054287a0d682f9216b604a771ad2dc5] RESPONSE SetTimeouts
+[1602475895,503][INFO]: [d054287a0d682f9216b604a771ad2dc5] COMMAND Navigate {
+   "url": "http://localhost:8080/"
+}
+[1602475895,503][INFO]: Waiting for pending navigations...
+[1602475895,504][INFO]: Done waiting for pending navigations. Status: ok
+[1602475896,864][INFO]: Waiting for pending navigations...
+[1602475897,550][INFO]: Done waiting for pending navigations. Status: ok
+[1602475897,679][INFO]: Waiting for pending navigations...
+[1602475897,727][INFO]: Done waiting for pending navigations. Status: ok
+[1602475897,807][INFO]: Waiting for pending navigations...
+[1602475897,825][INFO]: Done waiting for pending navigations. Status: ok
+[1602475897,825][INFO]: [d054287a0d682f9216b604a771ad2dc5] RESPONSE Navigate ERROR unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=86.0.4240.75)
+[1602475898,030][INFO]: [d054287a0d682f9216b604a771ad2dc5] COMMAND Quit {
+
+}
+[1602475898,137][INFO]: [d054287a0d682f9216b604a771ad2dc5] RESPONSE Quit
